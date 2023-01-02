@@ -1,11 +1,13 @@
-import React from 'react';
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
-import { StylesProvider } from '@material-ui/core/styles';
+import React from "react";
+import MarketingApp from "./components/MarketingApp";
 
 export default () => {
   return (
-    <h1>
-      hi there
-    </h1>
+    <div>
+      <h1>hi there</h1>
+
+      <hr />
+      <MarketingApp />
+    </div>
   );
 };
